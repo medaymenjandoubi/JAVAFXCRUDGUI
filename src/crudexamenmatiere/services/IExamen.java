@@ -4,7 +4,7 @@
  */
 package crudexamenmatiere.services;
 
-import crudexamenmatiere.entities.Examen;
+import crudexamenmatiere.entities.ChampsExamensCombines;
 import java.util.List;
 
 /**
@@ -16,5 +16,5 @@ public interface IExamen<T> {
     public void ajouter(T m);
     public void modifier(T m);
     public void supprimer(T m);
-    public List<T> afficher();
+    public List<ChampsExamensCombines> afficher();
 }

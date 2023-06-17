@@ -5,7 +5,7 @@
 package crudexamenmatiere.services;
 
 
-import crudexamenmatiere.entities.Matiere;
+import crudexamenmatiere.entities.MatiereDetails;
 import java.util.List;
 
 /**
@@ -17,5 +17,5 @@ public interface IMatiere<T> {
     public void ajouter(T m);
     public void modifier(T m);
     public void supprimer(T m);
-    public List<T> afficher();
+    public List<MatiereDetails> afficher();
 }
